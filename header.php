@@ -16,6 +16,11 @@
 				</div>
 				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 			</div>
+			<ul id="menu-nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
 			<nav id="menu">
 				<div id="search"><?php get_search_form(); ?></div>
 			</nav>

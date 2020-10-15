@@ -61,6 +61,17 @@ a{
 	align-items: center;
 	flex-wrap: wrap;
 }
+#menu-nav{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#menu-nav li{
+	list-style: none;
+	position: relative;
+	color: #000;
+}
 #menu #search input{
 	padding: 10px;
 	border:none;
