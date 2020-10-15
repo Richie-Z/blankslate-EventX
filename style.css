@@ -23,11 +23,18 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	box-sizing: border-box;
 	position: relative;
 	font-family: 'Poppins';
+	scroll-behavior: smooth;
 
 }
 a{
 	text-decoration: none;
 	font-family: 'Poppins'
+}
+section{
+	padding: 100px;
+}
+p{
+	font-family: Poppins;
 }
 #header{
 	position: fixed;
@@ -51,6 +58,10 @@ a{
 	text-decoration: none;
 	font-size: 1.7em;
 	letter-spacing: 2px;
+	transition: 0.5s;
+}
+#site-title:hover{
+	text-shadow: 0 5px 20px rgba(0,0,0,0.7);
 }
 #site-title a{
 	color: #000;
@@ -70,7 +81,15 @@ a{
 #menu-nav li{
 	list-style: none;
 	position: relative;
+}
+#menu-nav li a{
 	color: #000;
+	padding: 15px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+#menu-nav li a:hover{
+	color: #999;
 }
 #menu #search input{
 	padding: 10px;
@@ -87,9 +106,50 @@ a{
 	color: #fff;
 	cursor: pointer;
 }
+#home{
+	position: relative;
+	min-height: 100vh;
+	background-color: #ffa5a5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+#about{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.heading{
+	text-align: center;
+	color: #111;
+	margin-bottom: 30px;
+}
+.heading h2{
+	font-weight: 600;
+	font-size: 30px;
+	font-family: Poppins;
+}	
+#contentBx{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 200px;
+}
+#contentBx #aboutBx{
+	min-width: 50%;
+	padding-right: 30px;
+}
+#w50{
+	min-width: 50%;
+}
+img{	
+	max-width: 100%;
+}
 #container{
 	min-height: 100vh;
 	padding: 100px;
+	background-color: #00587a;
+	margin-top: -200px; 
 }
 #footer{
 	background: #f7f7f7;
