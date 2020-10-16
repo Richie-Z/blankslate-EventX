@@ -23,8 +23,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	box-sizing: border-box;
 	position: relative;
 	font-family: 'Poppins';
-	scroll-behavior: smooth;
-
+}
+html{
+	overflow-x: hidden;
+}
+img{	
+	max-width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 a{
 	text-decoration: none;
@@ -44,7 +49,7 @@ p{
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 40px;
+	padding: 25px 45px;
 	z-index: 1000;
 	background: #f7f7f7;
 	transition: 0.5s;
@@ -85,7 +90,8 @@ p{
 #menu-nav li a{
 	color: #000;
 	padding: 15px;
-	font-weight: 500;
+	font-size: 13px;
+	font-weight: 700;
 	transition: 0.5s;
 }
 #menu-nav li a:hover{
@@ -142,14 +148,27 @@ p{
 #w50{
 	min-width: 50%;
 }
-img{	
-	max-width: 100%;
-}
 #container{
 	min-height: 100vh;
 	padding: 100px;
-	background-color: #00587a;
+	background-color: #407087;
 	margin-top: -200px; 
+}
+#content{
+	margin-top: 200px;
+}
+#sponsor{
+	margin: auto;
+}
+#sponsorBx{
+	padding: 30px;	
+	background-color: #EBF4F3;
+	min-height: 600px;
+	border-radius: 12px;
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	margin-left: -100px;
+	margin-right: -100px
 }
 #footer{
 	background: #f7f7f7;
