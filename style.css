@@ -130,7 +130,7 @@ p{
 .heading{
 	text-align: center;
 	color: #111;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .heading h2{
 	font-weight: 600;
@@ -186,6 +186,88 @@ p{
 	margin: 20px;
 	cursor: pointer;
 }
+#contact{
+	transition: margin-left .5s;
+	position: relative;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+.formBx{
+	min-width: 60%;
+}
+.formBx form{
+	display: flex;
+	flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-family: Poppins;
+}
+.formBx form input,
+.formBx form textarea{
+	margin-bottom: 20px;
+	padding: 15px;
+	font-size: 16px;
+	border:none;
+	outline: none;
+	background: #fff;
+	color: #111;
+	resize: none;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0,  0.3);
+}
+.formBx form textarea{
+	min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder{
+	color: #111;
+}
+.formBx form input[type="submit"]{
+	max-width: 140px;
+	background: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;	
+}
+.contactInfo{
+	min-height: 40%;
+	max-width: 40%;
+	position: relative;
+}
+.contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.contactInfo .box .icon{
+	min-width: 40px;
+	padding-top: 4px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 24px;
+}
+.contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+.contactInfo .box .text h3{
+	font-weight: 500;
+	color: #2196f3;
+	margin-bottom: 0;
+}
 #footer{
 	background: #f7f7f7;
 	padding: 20px 100px;
@@ -209,22 +291,22 @@ p{
 	padding-top: 60px;
 }
 .sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
 }
 .sidebar a:hover {
-  color: #f1f1f1;
+	color: #f1f1f1;
 }
 .sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 .openbtn {
 	margin-top: 94vh;

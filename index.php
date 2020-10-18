@@ -14,6 +14,7 @@
 		<?php get_template_part( 'nav', 'below' ); ?>
 	</main>
 	<?php get_template_part('sponsor') ?>
+	<?php get_template_part('contact') ?>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
