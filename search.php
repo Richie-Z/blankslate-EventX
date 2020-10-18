@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_template_part( "header2" ); ?>
 <main id="content">
 	<?php if ( have_posts() ) : ?>
 		<header class="header">

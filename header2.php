@@ -17,13 +17,6 @@
 				</div>
 				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 			</div>
-			<ul id="menu-nav">
-				<li><a href="/#home">Home</a></li>
-				<li><a href="#aboutt">About</a></li>
-				<li><a href="#content">Event</a></li>
-				<li><a href="#sponsor">Sponsor</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
 			<nav id="menu">
 				<div id="search"><?php get_search_form(); ?></div>
 			</nav>
