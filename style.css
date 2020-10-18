@@ -324,6 +324,30 @@ p{
 .openbtn:hover {
 	background-color: #444;
 }
+h1.entry-title {
+	text-align: center;
+	margin-top: -100px;
+}
+h1.entry-title a{
+	font-weight: 700;
+	font-size: 2em;
+}
+.entry-title a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.5em;	
+}
+.entry-content{
+	margin: 10px;
+}
+.entry-content p{
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.entry-meta{
+	margin: 10px;
+}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
