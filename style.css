@@ -163,12 +163,24 @@ p{
 #sponsorBx{
 	padding: 30px;	
 	background-color: #EBF4F3;
-	min-height: 600px;
+	min-height: 500px;
 	border-radius: 12px;
 	border: none;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 	margin-left: -100px;
 	margin-right: -100px
+}
+#imgBx{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+#imgBx img{
+	max-width: 250px;
+	margin: 20px;
+	cursor: pointer;
 }
 #footer{
 	background: #f7f7f7;
